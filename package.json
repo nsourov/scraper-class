@@ -6,7 +6,11 @@
   "author": "entrptaher@gmail.com <entrptaher@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "normalize-url": "^3.0.1",
-    "puppeteer": "^1.5.0"
+    "add": "^2.0.6",
+    "normalize-url": "^4.5.0",
+    "puppeteer": "^2.0.0",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-stealth": "^2.4.9",
+    "yarn": "^1.21.1"
   }
 }
