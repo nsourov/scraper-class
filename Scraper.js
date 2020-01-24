@@ -1,7 +1,10 @@
-const puppeteer = require("puppeteer");
+const puppeteer = require('puppeteer-extra')
 const normalizeUrl = require("normalize-url");
 const fs = require("fs");
 
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+
+puppeteer.use(StealthPlugin());
 /**
  * creates a scraper instance
  */
